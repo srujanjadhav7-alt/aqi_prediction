@@ -1,0 +1,10 @@
+
+aqi_env/
+__pycache__/
+*.pyc
+*.pyo
+.env
+logs/
+data/raw/
+data/augmented/
+.ipynb_checkpoints/
