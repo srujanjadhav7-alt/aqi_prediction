@@ -1,0 +1,164 @@
+filename,filepath,aqi,category,source
+rain_storm-815.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-815.jpg,80.0,Moderate,dawn
+rain_storm-019.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-019.jpg,80.0,Moderate,dawn
+sand_storm-276.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-276.jpg,300.0,Very Unhealthy,dawn
+snow_storm-060.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-060.jpg,85.0,Moderate,dawn
+sand_storm-264.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-264.jpg,300.0,Very Unhealthy,dawn
+rain_storm-681.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-681.jpg,80.0,Moderate,dawn
+rain_storm-835.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-835.jpg,80.0,Moderate,dawn
+sand_storm-239.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-239.jpg,300.0,Very Unhealthy,dawn
+rain_storm-311.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-311.jpg,80.0,Moderate,dawn
+rain_storm-339.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-339.jpg,80.0,Moderate,dawn
+rain_storm-419.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-419.jpg,80.0,Moderate,dawn
+mist-030.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-030.jpg,75.0,Moderate,dawn
+sand_storm-190.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-190.jpg,300.0,Very Unhealthy,dawn
+rain_storm-154.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-154.jpg,80.0,Moderate,dawn
+foggy-003.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-003.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+sand_storm-247.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-247.jpg,300.0,Very Unhealthy,dawn
+dusttornado-017.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\dusttornado-017.jpg,375.0,Hazardous,dawn
+sand_storm-027.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-027.jpg,300.0,Very Unhealthy,dawn
+foggy-028.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-028.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+rain_storm-650.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-650.jpg,80.0,Moderate,dawn
+foggy-037.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-037.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+sand_storm-089.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-089.jpg,300.0,Very Unhealthy,dawn
+mist-121.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-121.jpg,75.0,Moderate,dawn
+foggy-098.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-098.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+snow_storm-001.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-001.jpg,85.0,Moderate,dawn
+snow_storm-327.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-327.jpg,85.0,Moderate,dawn
+sand_storm-180.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-180.jpg,300.0,Very Unhealthy,dawn
+rain_storm-297.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-297.jpg,80.0,Moderate,dawn
+sand_storm-219.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-219.jpg,300.0,Very Unhealthy,dawn
+snow_storm-097.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-097.jpg,85.0,Moderate,dawn
+haze-057.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-057.jpg,175.0,Unhealthy,dawn
+mist-109.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-109.jpg,75.0,Moderate,dawn
+rain_storm-273.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-273.jpg,80.0,Moderate,dawn
+dusttornado-031.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\dusttornado-031.jpg,375.0,Hazardous,dawn
+51_hazy.png,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dense_haze\hazy\51_hazy.png,280.0,Very Unhealthy,dense_haze
+haze-016.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-016.jpg,175.0,Unhealthy,dawn
+sand_storm-386.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-386.jpg,300.0,Very Unhealthy,dawn
+sand_storm_g2_-087.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm_g2_-087.jpg,225.0,Very Unhealthy,dawn
+haze-030.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-030.jpg,175.0,Unhealthy,dawn
+sand_storm-068.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-068.jpg,300.0,Very Unhealthy,dawn
+snow_storm-352.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-352.jpg,85.0,Moderate,dawn
+sand_storm-114.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-114.jpg,300.0,Very Unhealthy,dawn
+08_hazy.png,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dense_haze\hazy\08_hazy.png,280.0,Very Unhealthy,dense_haze
+mist-072.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-072.jpg,75.0,Moderate,dawn
+haze-111.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-111.jpg,175.0,Unhealthy,dawn
+sand_storm_g2_-061.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm_g2_-061.jpg,225.0,Very Unhealthy,dawn
+rain_storm-589.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-589.jpg,80.0,Moderate,dawn
+snow_storm-245.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-245.jpg,85.0,Moderate,dawn
+foggy-068.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-068.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+sand_storm-324.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-324.jpg,300.0,Very Unhealthy,dawn
+sand_storm_g2_-041.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm_g2_-041.jpg,225.0,Very Unhealthy,dawn
+haze-071.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-071.jpg,175.0,Unhealthy,dawn
+haze-080.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-080.jpg,175.0,Unhealthy,dawn
+rain_storm-789.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-789.jpg,80.0,Moderate,dawn
+rain_storm-939.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-939.jpg,80.0,Moderate,dawn
+snow_storm-133.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-133.jpg,85.0,Moderate,dawn
+sand_storm-082.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-082.jpg,300.0,Very Unhealthy,dawn
+sand_storm-177.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-177.jpg,300.0,Very Unhealthy,dawn
+snow_storm-070.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-070.jpg,85.0,Moderate,dawn
+sand_storm-260.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-260.jpg,300.0,Very Unhealthy,dawn
+dusttornado-026.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\dusttornado-026.jpg,375.0,Hazardous,dawn
+rain_storm-676.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-676.jpg,80.0,Moderate,dawn
+rain_storm-158.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-158.jpg,80.0,Moderate,dawn
+mist-119.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-119.jpg,75.0,Moderate,dawn
+snow_storm-072.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-072.jpg,85.0,Moderate,dawn
+sand_storm-936.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-936.jpg,300.0,Very Unhealthy,dawn
+rain_storm-536.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-536.jpg,80.0,Moderate,dawn
+sand_storm-232.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-232.jpg,300.0,Very Unhealthy,dawn
+mist-088.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-088.jpg,75.0,Moderate,dawn
+rain_storm-130.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-130.jpg,80.0,Moderate,dawn
+sand_storm-300.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-300.jpg,300.0,Very Unhealthy,dawn
+sand_storm_g2-921.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm_g2-921.jpg,260.0,Very Unhealthy,dawn
+snow_storm-202.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-202.jpg,85.0,Moderate,dawn
+haze-099.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-099.jpg,175.0,Unhealthy,dawn
+rain_storm-626.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-626.jpg,80.0,Moderate,dawn
+haze-032.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-032.jpg,175.0,Unhealthy,dawn
+30_hazy.png,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dense_haze\hazy\30_hazy.png,280.0,Very Unhealthy,dense_haze
+sand_storm-048.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-048.jpg,300.0,Very Unhealthy,dawn
+mist-043.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-043.jpg,75.0,Moderate,dawn
+rain_storm-253.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-253.jpg,80.0,Moderate,dawn
+mist-067.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-067.jpg,75.0,Moderate,dawn
+snow_storm-050.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-050.jpg,85.0,Moderate,dawn
+snow_storm-376.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-376.jpg,85.0,Moderate,dawn
+snow_storm-341.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-341.jpg,85.0,Moderate,dawn
+sand_storm-312.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-312.jpg,300.0,Very Unhealthy,dawn
+mist-059.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-059.jpg,75.0,Moderate,dawn
+foggy-069.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-069.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+sand_storm-138.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-138.jpg,300.0,Very Unhealthy,dawn
+snow_storm-076.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-076.jpg,85.0,Moderate,dawn
+mist-105.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-105.jpg,75.0,Moderate,dawn
+foggy-023.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-023.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+haze-115.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-115.jpg,175.0,Unhealthy,dawn
+foggy-085.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-085.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+sand_storm-009.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-009.jpg,300.0,Very Unhealthy,dawn
+43_hazy.png,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dense_haze\hazy\43_hazy.png,280.0,Very Unhealthy,dense_haze
+rain_storm-667.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-667.jpg,80.0,Moderate,dawn
+snow_storm-078.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-078.jpg,85.0,Moderate,dawn
+sand_storm-044.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-044.jpg,300.0,Very Unhealthy,dawn
+foggy-062.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-062.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+rain_storm-610.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-610.jpg,80.0,Moderate,dawn
+rain_storm-277.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-277.jpg,80.0,Moderate,dawn
+sand_storm-358.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-358.jpg,300.0,Very Unhealthy,dawn
+rain_storm-466.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-466.jpg,80.0,Moderate,dawn
+foggy-064.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-064.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+snow_storm-023.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-023.jpg,85.0,Moderate,dawn
+snow_storm-329.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-329.jpg,85.0,Moderate,dawn
+sand_storm-363.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-363.jpg,300.0,Very Unhealthy,dawn
+foggy-042.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-042.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+foggy-079.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-079.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+haze-106.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-106.jpg,175.0,Unhealthy,dawn
+sand_storm-127.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-127.jpg,300.0,Very Unhealthy,dawn
+sand_storm-184.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-184.jpg,300.0,Very Unhealthy,dawn
+mist-020.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-020.jpg,75.0,Moderate,dawn
+foggy-114.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-114.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+rain_storm-851.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-851.jpg,80.0,Moderate,dawn
+22_hazy.png,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dense_haze\hazy\22_hazy.png,280.0,Very Unhealthy,dense_haze
+rain_storm-407.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-407.jpg,80.0,Moderate,dawn
+sand_storm-034.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-034.jpg,300.0,Very Unhealthy,dawn
+snow_storm-147.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-147.jpg,85.0,Moderate,dawn
+sand_storm_g2_-044.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm_g2_-044.jpg,225.0,Very Unhealthy,dawn
+sand_storm-368.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-368.jpg,300.0,Very Unhealthy,dawn
+rain_storm-775.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-775.jpg,80.0,Moderate,dawn
+haze-043.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-043.jpg,175.0,Unhealthy,dawn
+snow_storm-151.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-151.jpg,85.0,Moderate,dawn
+sand_storm-197.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-197.jpg,300.0,Very Unhealthy,dawn
+sand_storm_g2_-063.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm_g2_-063.jpg,225.0,Very Unhealthy,dawn
+rain_storm-766.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-766.jpg,80.0,Moderate,dawn
+foggy-060.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-060.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+sand_storm-355.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-355.jpg,300.0,Very Unhealthy,dawn
+rain_storm-553.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-553.jpg,80.0,Moderate,dawn
+foggy-081.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-081.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+sand_storm-961.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-961.jpg,300.0,Very Unhealthy,dawn
+sand_storm-361.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-361.jpg,300.0,Very Unhealthy,dawn
+haze-009.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-009.jpg,175.0,Unhealthy,dawn
+snow_storm-011.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-011.jpg,85.0,Moderate,dawn
+haze-042.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-042.jpg,175.0,Unhealthy,dawn
+haze-012.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-012.jpg,175.0,Unhealthy,dawn
+mist-122.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-122.jpg,75.0,Moderate,dawn
+39_hazy.png,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dense_haze\hazy\39_hazy.png,280.0,Very Unhealthy,dense_haze
+snow_storm-217.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-217.jpg,85.0,Moderate,dawn
+haze-037.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-037.jpg,175.0,Unhealthy,dawn
+sand_storm-218.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-218.jpg,300.0,Very Unhealthy,dawn
+sand_storm-157.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-157.jpg,300.0,Very Unhealthy,dawn
+snow_storm-204.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-204.jpg,85.0,Moderate,dawn
+rain_storm-034.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-034.jpg,80.0,Moderate,dawn
+rain_storm-787.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-787.jpg,80.0,Moderate,dawn
+rain_storm-004.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-004.jpg,80.0,Moderate,dawn
+rain_storm-489.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-489.jpg,80.0,Moderate,dawn
+mist-147.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-147.jpg,75.0,Moderate,dawn
+rain_storm-014.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-014.jpg,80.0,Moderate,dawn
+foggy-106.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\foggy-106.jpg,125.0,Unhealthy for Sensitive Groups,dawn
+snow_storm-014.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-014.jpg,85.0,Moderate,dawn
+sand_storm-165.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-165.jpg,300.0,Very Unhealthy,dawn
+sand_storm-381.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-381.jpg,300.0,Very Unhealthy,dawn
+sand_storm_g2_-071.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm_g2_-071.jpg,225.0,Very Unhealthy,dawn
+haze-092.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-092.jpg,175.0,Unhealthy,dawn
+sand_storm-991.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\sand_storm-991.jpg,300.0,Very Unhealthy,dawn
+dusttornado-032.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\dusttornado-032.jpg,375.0,Hazardous,dawn
+haze-149.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\haze-149.jpg,175.0,Unhealthy,dawn
+mist-143.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\mist-143.jpg,75.0,Moderate,dawn
+rain_storm-527.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\rain_storm-527.jpg,80.0,Moderate,dawn
+dusttornado-008.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\dusttornado-008.jpg,375.0,Hazardous,dawn
+snow_storm-213.jpg,C:\Users\Srujan Jadhav\Desktop\aqi_prediction\data\raw\dawn\images\snow_storm-213.jpg,85.0,Moderate,dawn
