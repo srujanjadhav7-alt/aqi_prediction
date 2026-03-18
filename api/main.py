@@ -1,4 +1,4 @@
-##Docs UI:    http://127.0.0.1:8000/docs
+# api/main.py
 
 import sys
 import numpy as np
@@ -48,12 +48,11 @@ def denormalize_aqi(val: float) -> float:
 
 
 def preprocess_image(image_bytes: bytes) -> np.ndarray:
-    """Loads image bytes, resizes to 224x224, applies EfficientNet preprocessing."""
     img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
     img = img.resize((IMG_SIZE, IMG_SIZE))
     arr = np.array(img, dtype=np.float32)
-    arr = (arr / 127.5) - 1.0           # EfficientNet normalization
-    arr = np.expand_dims(arr, axis=0)   # Add batch dimension → (1, 224, 224, 3)
+    arr = (arr / 127.5) - 1.0
+    arr = np.expand_dims(arr, axis=0)
     return arr
 
 
@@ -103,16 +102,6 @@ def health():
 
 @app.post("/predict", response_model=AQIPrediction)
 async def predict(file: UploadFile = File(...)):
-    """
-    Upload an outdoor image (JPG/PNG) and get a predicted AQI value.
-    """
-    # Validate file type
-    if file.content_type not in ["image/jpeg", "image/png", "image/jpg"]:
-        raise HTTPException(
-            status_code=400,
-            detail="Invalid file type. Please upload a JPG or PNG image."
-        )
-
     if model is None:
         raise HTTPException(status_code=503, detail="Model not loaded yet.")
 
@@ -120,10 +109,7 @@ async def predict(file: UploadFile = File(...)):
         image_bytes = await file.read()
         img_array   = preprocess_image(image_bytes)
 
-        # Run inference
         raw_output  = model.predict(img_array, verbose=0)[0][0]
-
-        # Clamp output to [0, 1] before denormalizing
         raw_output  = float(np.clip(raw_output, 0.0, 1.0))
         aqi_value   = round(denormalize_aqi(raw_output), 1)
 
@@ -141,4 +127,3 @@ async def predict(file: UploadFile = File(...)):
     except Exception as e:
         log.error(f"Prediction failed: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-    
