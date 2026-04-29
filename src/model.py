@@ -7,34 +7,22 @@ import logging
 
 log = logging.getLogger(__name__)
 
-# ── Constants ──────────────────────────────────────────────────────────────────
+# ── Reproducibility ──────────────────────────────────────────────────────────
+tf.random.set_seed(42)
+
+# ── Constants ────────────────────────────────────────────────────────────────
 IMG_SIZE     = 224
-DROPOUT_RATE = 0.4
+DROPOUT_RATE = 0.3   # 🔽 reduced (was 0.4 → too aggressive)
 
 
 def build_model(freeze_backbone: bool = True) -> Model:
     """
-    Builds EfficientNetB3 regression model for AQI prediction.
-
-    Architecture:
-        Input (224x224x3)
-            → EfficientNetB3 backbone (pretrained ImageNet)
-            → GlobalAveragePooling2D
-            → Dense(256, swish) + BatchNorm + Dropout
-            → Dense(128, swish) + BatchNorm + Dropout
-            → Dense(1, linear)  ← normalized AQI output [0, 1]
-
-    Args:
-        freeze_backbone: If True, freezes all EfficientNetB3 weights.
-                         Set False during fine-tuning stage.
-    Returns:
-        Compiled Keras Model
+    EfficientNetB3 regression model for AQI prediction (improved stability)
     """
 
-    # ── Input ──────────────────────────────────────────────────────────────────
     inputs = layers.Input(shape=(IMG_SIZE, IMG_SIZE, 3), name="input_image")
 
-    # ── Backbone ───────────────────────────────────────────────────────────────
+    # ── Backbone ─────────────────────────────────────────────────────────────
     backbone = EfficientNetB3(
         include_top=False,
         weights="imagenet",
@@ -49,28 +37,35 @@ def build_model(freeze_backbone: bool = True) -> Model:
 
     x = backbone.output
 
-    # ── Regression Head ────────────────────────────────────────────────────────
+    # ── Regression Head (stabilized) ─────────────────────────────────────────
     x = layers.GlobalAveragePooling2D(name="gap")(x)
 
-    x = layers.Dense(256, name="dense_256")(x)
-    x = layers.Activation("swish", name="swish_256")(x)
+    # 🔹 Block 1
+    x = layers.Dense(256, activation="swish", name="dense_256")(x)
     x = layers.BatchNormalization(name="bn_256")(x)
     x = layers.Dropout(DROPOUT_RATE, name="drop_256")(x)
 
-    x = layers.Dense(128, name="dense_128")(x)
-    x = layers.Activation("swish", name="swish_128")(x)
+    # 🔹 Block 2
+    x = layers.Dense(128, activation="swish", name="dense_128")(x)
     x = layers.BatchNormalization(name="bn_128")(x)
     x = layers.Dropout(DROPOUT_RATE / 2, name="drop_128")(x)
 
-    # Linear output — predicts normalized AQI in [0, 1]
-    output = layers.Dense(1, activation="linear", name="aqi_output")(x)
+    # 🔹 Output (IMPORTANT FIX)
+    output = layers.Dense(
+        1,
+        activation="sigmoid",   # 🔥 forces output in [0,1]
+        name="aqi_output"
+    )(x)
 
-    # ── Compile ────────────────────────────────────────────────────────────────
     model = Model(inputs=inputs, outputs=output, name="AQI_EfficientNetB3")
 
+    # ── Compile (stabilized) ────────────────────────────────────────────────
     model.compile(
-        optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3),
-        loss=tf.keras.losses.Huber(delta=0.5),
+        optimizer=tf.keras.optimizers.Adam(
+            learning_rate=1e-3,
+            clipnorm=1.0   # 🔥 prevents exploding gradients
+        ),
+        loss=tf.keras.losses.Huber(delta=0.3),  # 🔽 tighter loss
         metrics=[
             tf.keras.metrics.MeanAbsoluteError(name="mae"),
             tf.keras.metrics.RootMeanSquaredError(name="rmse")
@@ -82,37 +77,42 @@ def build_model(freeze_backbone: bool = True) -> Model:
 
 def unfreeze_backbone(model: Model, learning_rate: float = 1e-5,
                       unfreeze_from_percent: float = 0.7) -> Model:
-    """Unfreezes only the top 30% of backbone layers."""
+
     for layer in model.layers:
         if "efficientnetb3" in layer.name:
             total        = len(layer.layers)
             freeze_until = int(total * unfreeze_from_percent)
+
             for i, l in enumerate(layer.layers):
                 l.trainable = i >= freeze_until
+
             log.info(f"Unfreezing top {total - freeze_until}/{total} backbone layers")
 
-    # Keep head always trainable
+    # Keep head trainable
     for layer in model.layers:
         if "efficientnetb3" not in layer.name:
             layer.trainable = True
 
     model.compile(
-        optimizer=tf.keras.optimizers.Adam(learning_rate=learning_rate),
-        loss=tf.keras.losses.Huber(delta=0.5),
+        optimizer=tf.keras.optimizers.Adam(
+            learning_rate=learning_rate,
+            clipnorm=1.0
+        ),
+        loss=tf.keras.losses.Huber(delta=0.3),
         metrics=[
             tf.keras.metrics.MeanAbsoluteError(name="mae"),
             tf.keras.metrics.RootMeanSquaredError(name="rmse")
         ]
     )
+
     return model
 
+
 def count_frozen(backbone) -> int:
-    """Returns number of non-trainable layers in backbone."""
     return sum(1 for l in backbone.layers if not l.trainable)
 
 
 def model_summary(model: Model):
-    """Prints a clean summary with parameter counts."""
     total     = model.count_params()
     trainable = sum(tf.size(w).numpy() for w in model.trainable_weights)
     frozen    = total - trainable
@@ -127,7 +127,7 @@ def model_summary(model: Model):
     print("═" * 55 + "\n")
 
 
-# ── Entry Point ────────────────────────────────────────────────────────────────
+# ── Entry Point ──────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO,
                         format="%(asctime)s [%(levelname)s] %(message)s")
