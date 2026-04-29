@@ -4,6 +4,21 @@ import tensorflow as tf
 import numpy as np
 import cv2
 from pathlib import Path
+import numpy as np
+import cv2
+
+def is_invalid_image(img):
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    
+    # very low variation → blank / sky / plain image
+    if np.std(gray) < 10:
+        return True
+
+    # too bright (clear sky / grass)
+    if np.mean(gray) > 200:
+        return True
+
+    return False
 
 # ── Reproducibility ───────────────────────────────────────────────────────────
 tf.random.set_seed(42)
