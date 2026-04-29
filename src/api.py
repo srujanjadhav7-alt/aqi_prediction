@@ -3,16 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 import shutil
 import os
 from src.predict import predict_aqi
-from fastapi.middleware.cors import CORSMiddleware
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
+# ✅ FIRST create app
 app = FastAPI()
 
 # 🚨 CORS (important for frontend)
@@ -47,4 +39,6 @@ async def predict(file: UploadFile = File(...)):
     # Delete file after prediction
     os.remove(file_path)
 
-    return result
+    return resultgit add .
+git commit -m "fix backend crash"
+git push
