@@ -40,5 +40,3 @@ async def predict(file: UploadFile = File(...)):
     os.remove(file_path)
 
     return resultgit add .
-git commit -m "fix backend crash"
-git push
