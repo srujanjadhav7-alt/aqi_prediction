@@ -1,6 +1,9 @@
 fastapi
 uvicorn
-tensorflow
+tensorflow==2.10.0
+keras==2.10.0git add .
+git commit -m "fix tensorflow version"
+git push
 opencv-python-headless
 numpy
 python-multipart
