@@ -39,4 +39,4 @@ async def predict(file: UploadFile = File(...)):
     # Delete file after prediction
     os.remove(file_path)
 
-    return resultgit add .
+    return result
